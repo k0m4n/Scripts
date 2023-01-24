@@ -240,7 +240,7 @@ function Call-MainForm_pff
 	$MainForm.FormBorderStyle = 'FixedSingle'
 	$MainForm.Name = "MainForm"
 	$MainForm.StartPosition = 'CenterScreen'
-	$MainForm.Text = "CCOPSware v3"
+	$MainForm.Text = "Helpdesk Tool v3"
 	$MainForm.add_Load($OnLoadFormEvent)
 	
 	$groupbox1.Controls.Add($buttonBlueScreenViewer)
