@@ -1,14 +1,11 @@
 #RequireAdmin
 #include <File.au3>
 #region ;**** Directives created by AutoIt3Wrapper_GUI ****
-#AutoIt3Wrapper_Icon=SDE.ico
 #AutoIt3Wrapper_Compression=4
 #AutoIt3Wrapper_Compile_Both=y
-#AutoIt3Wrapper_Res_Comment=Sempra Energy
 #AutoIt3Wrapper_Res_Description=Enable Remote Server Administration Toolkit (RSAT)
 #AutoIt3Wrapper_Res_Fileversion=1.1.0.22
 #AutoIt3Wrapper_Res_Fileversion_AutoIncrement=y
-#AutoIt3Wrapper_Res_LegalCopyright=Sempra Energy
 #AutoIt3Wrapper_Res_SaveSource=y
 #AutoIt3Wrapper_Res_Language=1033
 #AutoIt3Wrapper_Res_requestedExecutionLevel=requireAdministrator
@@ -20,10 +17,8 @@
 	SCRIPT INFORMATION
 	
 	Language:		AutoIT
-	Author:         Charles Keisler
-	Company:		Sempra Energy
-	URL:			http://www.sempra.com
-	License:		Internal Use Only
+	Author:         k0m4n
+	License:		GNU\GPLv3
 	Date:			02/19/2013
 	Version:		See Above
 	
