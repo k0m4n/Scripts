@@ -24,13 +24,6 @@
 [void][Reflection.Assembly]::Load("System.Data, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")
 [void][Reflection.Assembly]::Load("System.Xml, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089")
 [void][Reflection.Assembly]::Load("System.DirectoryServices, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a")
-<#hanf-off to AD-Account
-if ($env:username -notlike "ad-*")
-{
-    $arguments = "& '" + $myinvocation.mycommand.definition + "'"
-    Start-Process -Credential (Get-Credential -Message "Enter Aminitrative ID" -UserName "CORP\AD-") "$env:Windir\system32\WindowsPowerShell\v1.0\powershell.exe" -ArgumentList $arguments -WorkingDirectory (split-path $SCRIPT:MyInvocation.MyCommand.Path -parent)
-}
-#>
 
 function Main {
 	Param ([String]$Commandline)
