@@ -3,7 +3,7 @@
 #	SCRIPT INFORMATION
 #
 #	Language:		PowerShell
-#	Author:			Charles Keisler
+#	Author:			k0m4n
 #	Licence:		GNU\GPLv3
 #	Date:			12/11/2013
 #	Version:		3.1.0.0
